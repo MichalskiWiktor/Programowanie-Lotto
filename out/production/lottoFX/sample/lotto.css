@@ -1,0 +1,14 @@
+#anchor{
+    -fx-background-color:#eb4034;
+}
+#title{
+    -fx-text-fill:white;
+    -fx-font-weight: bold;
+}
+.button{
+    -fx-background-radius: 50px;
+    -fx-text-fill:#6B3B38;
+}
+.button:hover{
+    -fx-cursor:hand;
+}

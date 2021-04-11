@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="title" layoutX="245.0" layoutY="22.0" text="Lotto">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="126.0" text="Twoje liczby:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="myNumber1" layoutX="164.0" layoutY="129.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="myNumber2" layoutX="202.0" layoutY="129.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="myNumber3" layoutX="239.0" layoutY="129.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="myNumber4" layoutX="276.0" layoutY="129.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="myNumber5" layoutX="312.0" layoutY="129.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="myNumber6" layoutX="349.0" layoutY="129.0" prefHeight="25.0" prefWidth="32.0" />
+      <Label layoutX="7.0" layoutY="178.0" text="Liczby wygrane:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="winNumber1" layoutX="164.0" layoutY="181.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="winNumber2" layoutX="202.0" layoutY="181.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="winNumber3" layoutX="239.0" layoutY="181.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="winNumber4" layoutX="276.0" layoutY="181.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="winNumber5" layoutX="312.0" layoutY="181.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="winNumber6" layoutX="349.0" layoutY="181.0" prefHeight="25.0" prefWidth="32.0" />
+      <Button fx:id="clearBtn" layoutX="447.0" layoutY="178.0" mnemonicParsing="false" onAction="#clearFields" prefHeight="31.0" prefWidth="81.0" text="Wyczyść">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="playBtn" layoutX="447.0" layoutY="126.0" mnemonicParsing="false" onAction="#startGame" prefHeight="31.0" prefWidth="81.0" text="Graj">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="results" layoutX="86.0" layoutY="238.0" text="Wyniki:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
